@@ -1,4 +1,4 @@
-		<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spring1</groupId>
-	<artifactId>SBP1</artifactId>
+	<artifactId>taskpulse</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SBP1</name>
-	<description>1st project for Spring Boot</description>
+	<name>taskpulse</name>
+	<description>Todo Web Application</description>
 	<properties>
-		<java.version>17.0.2</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 	
