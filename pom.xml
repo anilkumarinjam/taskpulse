@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spring1</groupId>
-	<artifactId>taskpulse</artifactId>
+	<artifactId>ROOT</artifactId>
 	<version>1</version>
 	<name>taskpulse</name>
 	<description>Todo Web Application</description>
@@ -121,7 +121,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
-			<optional>true</optional>
 		</dependency>
 		
 		<dependency>

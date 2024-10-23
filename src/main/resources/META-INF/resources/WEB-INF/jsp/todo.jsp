@@ -14,7 +14,7 @@
 	<a class="navbar-brand m-1" href="https://anilkumarinjam.github.io/portfolio">/Dev</a>
 	<div class="collapse navbar-collapse">
 		<ul class="navbar-nav">
-			<li class="nav-item"><a class="nav-link" href="welcome">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
 			<li class="nav-item"><a class="nav-link" href="todolist">Todos</a></li>
 		</ul>
 	</div>
