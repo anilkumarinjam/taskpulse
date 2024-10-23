@@ -43,7 +43,7 @@ public class SecurityConfiguration {
 public SecurityFilterChain filterchain(HttpSecurity http) throws Exception {
     http.authorizeHttpRequests(auth -> auth.anyRequest().authenticated())
         .formLogin(form -> form
-            .defaultSuccessUrl("/welcome", true) // Redirect to /welcome after successful login
+            .defaultSuccessUrl("/", true) // Redirect to /welcome after successful login
             .permitAll()
         )
         .csrf().disable()

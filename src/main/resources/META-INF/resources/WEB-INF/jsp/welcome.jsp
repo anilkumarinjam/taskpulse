@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 <meta charset="ISO-8859-1">
-<title>Welcome to ToDo</title>
+<title>Welcome to your Tasks</title>
 <style>
   body {
     font-family: 'Arial', sans-serif;
