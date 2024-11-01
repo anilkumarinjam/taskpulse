@@ -7,13 +7,18 @@
 <title>Welcome to your Tasks</title>
 <style>
   body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, #8952dc 50%, #f6f4f8 50%);
     color: #333;
     margin: 0;
     padding: 0;
+    animation: gradientAnimation 15s ease infinite;
   }
-
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
   .container {
     max-width: 800px;
     margin: 100px auto;

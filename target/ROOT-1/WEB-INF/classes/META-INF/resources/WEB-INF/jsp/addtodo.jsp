@@ -10,7 +10,7 @@
     <title>Spring Boot MVC</title>
     <style>
         body {
-            background-color: #f0f8ff;
+            background: linear-gradient(135deg, #e6f9ff, #f0f8ff);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -19,11 +19,13 @@
         }
 
         .container {
-            background-color: #fff;
-            border-radius: 10px;
+            background-color: #ffffff;
+            border-radius: 15px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             padding: 30px;
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            max-width: 400px; /* Limit the width of the form */
+            width: 90%; /* Responsive width */
         }
 
         .container:hover {
@@ -33,13 +35,17 @@
 
         h1 {
             text-align: center;
-            color: #0073e6;
+            color:#0073e6;
             margin-bottom: 20px;
             transition: color 0.3s ease;
         }
 
         h1:hover {
             color: #ff6347;
+        }
+
+        input[type="text"] {
+            border-radius: 8px; /* Rounded corners for input fields */
         }
 
         input[type="text"]:focus {
@@ -50,19 +56,30 @@
 
         .btn-success {
             width: 100%;
+            background: linear-gradient(135deg, #0073e6, #ff6347);
             transition: background-color 0.3s ease;
+            border: none; /* Remove default border */
+            border-radius: 8px; /* Rounded corners for button */
         }
 
         .btn-success:hover {
-            background-color: #ff6347;
+            background: linear-gradient(135deg, #ff6347, #0073e6);
             color: white;
+        }
+
+        .form-label {
+            font-weight: bold; /* Make labels bold for emphasis */
+        }
+
+        .form-control {
+            margin-bottom: 15px; /* Spacing between fields */
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Enter ToDo Details</h1>
+    <h1>Add or Modify Your Task</h1>
     <form:form action="add-todo" method="post" modelAttribute="t1">
         <div class="id">
             <form:input type="hidden" path="id"/>
